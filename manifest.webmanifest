@@ -2,9 +2,16 @@
   "name": "단장잇다",
   "short_name": "단장잇다",
   "description": "단장면의 식당과 사람을 잇다",
+  "lang": "ko",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f5f6f1",
   "theme_color": "#174c35",
-  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
 }
